@@ -42,7 +42,7 @@ The agent works best with the Railway CLI logged in (run `railway login` yoursel
 6. A short written record of what was done and what's still pending.
 
 ## What the paid version adds
-This checklist is meant to be enough on its own if you're careful. The paid pack, [Railway Post-Breach Check](AGENSI_LISTING_URL) ($12), is the same process with tooling around it, for people with many services or who want the agent to do more of the legwork safely:
+This checklist is meant to be enough on its own if you're careful. The paid pack, [Railway Post-Breach Check](https://www.agensi.io/skills/railway-post-breach-check) ($12), is the same process with tooling around it, for people with many services or who want the agent to do more of the legwork safely:
 
 - Offline Python scripts (standard library only) that read variables and print names, a secret flag, a kind, an issuer guess and an optional fingerprint, so the agent can take a full inventory without values ever reaching the chat. Text that looks like a secret in name or author fields is screened out.
 - A rotation plan generator that turns the inventory into a prioritised table and spots the same key stored in several places.
