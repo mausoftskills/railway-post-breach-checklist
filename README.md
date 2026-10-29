@@ -15,7 +15,7 @@ Railway reported that an attacker accessed encrypted environment variables betwe
 Outside reporting (crypto.news, The Hacker News, citing researcher Taylor Monahan) has linked crypto wallet drains to the incident. Railway has not confirmed those thefts. The checklist puts wallets first either way, because a leaked wallet key can't be rotated.
 
 ## Install
-Copy the `railway-post-breach-checklist` folder (the one with `SKILL.md` directly inside) into your agent's skills folder. The folder name has to match the `name` in SKILL.md.
+This repo is the skill folder (`SKILL.md` sits at the top), so clone or copy it into your agent's skills folder as `railway-post-breach-checklist`. The folder name has to match the `name` in SKILL.md.
 
 - Claude Code: `~/.claude/skills/` (or `.claude/skills/` in one project)
 - Cursor: `~/.cursor/skills/` (or `.cursor/skills/` in one project)
@@ -23,9 +23,8 @@ Copy the `railway-post-breach-checklist` folder (the one with `SKILL.md` directl
 
 For example:
 ```bash
-git clone https://github.com/mausoftskills/railway-post-breach-checklist
 mkdir -p ~/.claude/skills
-cp -r railway-post-breach-checklist/railway-post-breach-checklist ~/.claude/skills/
+git clone https://github.com/mausoftskills/railway-post-breach-checklist ~/.claude/skills/railway-post-breach-checklist
 ```
 
 Then ask your agent something like:
