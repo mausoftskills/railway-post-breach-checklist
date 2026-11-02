@@ -84,3 +84,5 @@ Report anything odd as "needs follow-up", not as proof of an attack.
 
 ## 6. Keep a short record
 Write a short report the user keeps: scope, what was rotated (name, issuer, time, how it was verified, when the old key was revoked), what's pending and who owns it, what was skipped and why, what couldn't be checked (for example, logs that had aged out), and one line per wallet (funds moved, old address burned). Names, dates and counts only, no values or addresses. Give the incident window in UTC and change times in the user's own zone, labelled. Remind the user to check Railway's report again, since the final version isn't out yet.
+
+Want the full version? Railway Post-Breach Check on Agensi adds offline scripts for a names-only inventory, a rotation plan and a deployment-window check: https://www.agensi.io/skills/railway-post-breach-check
